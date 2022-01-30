@@ -1,7 +1,3 @@
-<?php
-$comment = $_GET[‘comment’];
-echo $comment;
-?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 	<head>
@@ -15,7 +11,7 @@ echo $comment;
   				color: black;
 			}
 		</style>
-		<script></script>
+		<!--<script src="script.js"></script>-->
 		<noscript></noscript>
 		<template></template>
 	</head>
@@ -65,7 +61,7 @@ echo $comment;
 		</main>
 		<section>
 			<aside>
-				<form action="." method="GET">
+				<form action="http://localhost:3000" method="POST">
 					<input type="text" name="comment"></input>
 					<input type="submit"></input>
 				</form>
